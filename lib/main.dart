@@ -1,5 +1,15 @@
 import 'package:flutter/material.dart';
+import 'package:latihan_flutter/container_widget/container_dua.dart';
+import 'package:latihan_flutter/container_widget/container_satu.dart';
+import 'package:latihan_flutter/latihan/latihan_card.dart';
+import 'package:latihan_flutter/latihan/latihan_satu.dart';
 import 'package:latihan_flutter/main_layout.dart';
+import 'package:latihan_flutter/row_column_widget/column_satu.dart';
+import 'package:latihan_flutter/row_column_widget/latihan_row_column.dart';
+import 'package:latihan_flutter/row_column_widget/row_satu.dart';
+import 'package:latihan_flutter/stack_widget/stack_dua.dart';
+import 'package:latihan_flutter/stack_widget/stack_satu.dart';
+import 'package:latihan_flutter/stack_widget/stack_tiga.dart';
 
 void main() {
   runApp(MyApp());
@@ -12,7 +22,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: true,
-      home: HelloFultter()
+      home: LatihanCardProduct()
     );
   }
 }

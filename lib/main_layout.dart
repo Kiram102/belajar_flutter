@@ -16,8 +16,7 @@ class MainLayout extends StatelessWidget {
       appBar: AppBar(
         centerTitle: true,
         backgroundColor: Colors.blue,
-        title: Text(title), 
-        leading: const Icon(Icons.menu),
+        title: Text(title),
       ),
       body: Center(
         child: body,

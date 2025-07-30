@@ -1,8 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:latihan_flutter/container_widget/container_dua.dart';
 import 'package:latihan_flutter/container_widget/container_satu.dart';
+import 'package:latihan_flutter/grid_view/grid_product.dart';
+import 'package:latihan_flutter/grid_view/grid_satu.dart';
+import 'package:latihan_flutter/latihan/contoh.dart';
 import 'package:latihan_flutter/latihan/latihan_card.dart';
 import 'package:latihan_flutter/latihan/latihan_satu.dart';
+import 'package:latihan_flutter/list_widget/list_dua.dart';
+import 'package:latihan_flutter/list_widget/list_satu.dart';
+import 'package:latihan_flutter/list_widget/list_screen.dart';
 import 'package:latihan_flutter/main_layout.dart';
 import 'package:latihan_flutter/row_column_widget/column_satu.dart';
 import 'package:latihan_flutter/row_column_widget/latihan_row_column.dart';
@@ -22,7 +28,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: true,
-      home: LatihanCardProduct()
+      home: ArticleListScreen()
     );
   }
 }

@@ -16,6 +16,7 @@ import 'package:latihan_flutter/row_column_widget/row_satu.dart';
 import 'package:latihan_flutter/stack_widget/stack_dua.dart';
 import 'package:latihan_flutter/stack_widget/stack_satu.dart';
 import 'package:latihan_flutter/stack_widget/stack_tiga.dart';
+import 'package:latihan_flutter/tugas_30_juli/halaman_utama.dart';
 
 void main() {
   runApp(MyApp());
@@ -28,7 +29,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: true,
-      home: ArticleListScreen()
+      home: HalamanUtama()
     );
   }
 }

@@ -16,7 +16,7 @@ class MainLayout extends StatelessWidget {
       appBar: AppBar(
         centerTitle: true,
         backgroundColor: Colors.blue,
-        title: Text(title),
+        title: Text(title, style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold),),
       ),
       body: Center(
         child: body,

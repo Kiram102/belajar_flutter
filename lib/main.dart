@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:latihan_flutter/container_widget/container_dua.dart';
 import 'package:latihan_flutter/container_widget/container_satu.dart';
+import 'package:latihan_flutter/form_widget/input_screen.dart';
 import 'package:latihan_flutter/grid_view/grid_product.dart';
 import 'package:latihan_flutter/grid_view/grid_satu.dart';
 import 'package:latihan_flutter/latihan/contoh.dart';
@@ -29,7 +30,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: true,
-      home: HalamanUtama()
+      home: InputFormScreen()
     );
   }
 }
